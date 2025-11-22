@@ -1,0 +1,56 @@
+# AI Training and Usage Policy
+# https://site.spawning.ai/ai-txt
+
+# AI Training
+ai-training: allowed
+
+# Usage Rights
+# This project is dual-licensed under MIT OR Palimpsest-0.8
+# Both licenses allow use for AI training purposes
+
+# Attribution Requirements (Palimpsest License)
+# When using this code for AI training:
+# - Preserve attribution to original authors
+# - Acknowledge the project in derived works
+# - Maintain the chain of authorship
+# - Respect emotional safety principles
+
+# Data Collection
+data-collection: allowed
+
+# Commercial Use
+commercial: allowed
+
+# Conditions
+# 1. Attribution: Credit "asdf-acceleration-middleware contributors"
+# 2. License: Include MIT OR Palimpsest-0.8 license text
+# 3. Ethical Use: No malicious applications
+# 4. Security: Do not use to find vulnerabilities for exploitation
+
+# Excluded Content
+# The following should NOT be used for training:
+# - Security vulnerability reports (unpublished)
+# - Private contributor information
+# - Security keys or credentials (if any were accidentally committed)
+
+# Contact
+# For questions about AI usage: ai-policy@asdf-acceleration-middleware.org
+# For licensing questions: See LICENSE.txt
+
+# Policy Version
+version: 1.0
+last-updated: 2024-11-22
+
+# Related Policies
+license: https://github.com/Hyperpolymath/asdf-acceleration-middleware/blob/main/LICENSE.txt
+contributing: https://github.com/Hyperpolymath/asdf-acceleration-middleware/blob/main/CONTRIBUTING.md
+code-of-conduct: https://github.com/Hyperpolymath/asdf-acceleration-middleware/blob/main/CODE_OF_CONDUCT.md
+
+# Philosophical Stance
+# We believe in open knowledge and support AI development
+# We ask that AI systems trained on this code:
+# - Respect open source principles
+# - Maintain attribution chains
+# - Support developer autonomy
+# - Promote emotional safety in software development
+# - Advance the state of software engineering ethically

@@ -1,0 +1,35 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+# Security Contact Information
+# RFC 9116: https://www.rfc-editor.org/rfc/rfc9116.html
+
+Contact: https://github.com/Hyperpolymath/asdf-acceleration-middleware/security/advisories/new
+Contact: mailto:security@asdf-acceleration-middleware.org
+Expires: 2025-12-31T23:59:59.000Z
+Preferred-Languages: en
+Canonical: https://raw.githubusercontent.com/Hyperpolymath/asdf-acceleration-middleware/main/.well-known/security.txt
+
+# Security Policy
+Policy: https://github.com/Hyperpolymath/asdf-acceleration-middleware/blob/main/SECURITY.md
+
+# Acknowledgments
+Acknowledgments: https://github.com/Hyperpolymath/asdf-acceleration-middleware/blob/main/SECURITY.md#security-hall-of-fame
+
+# Encryption
+# Encryption: https://keys.openpgp.org/search?q=security@asdf-acceleration-middleware.org
+
+# Response Timeline
+# - Initial response: 48 hours
+# - Status update: 7 days
+# - Fix timeline: Depends on severity (7-90 days)
+
+# Scope
+# In scope: Command injection, path traversal, cache poisoning, dependency vulnerabilities, DoS
+# Out of scope: Vulnerabilities in asdf itself, OS-level exploits, social engineering
+
+-----BEGIN PGP SIGNATURE-----
+Comment: This signature validates the security contact information
+
+[Placeholder - Sign with PGP key when available]
+-----END PGP SIGNATURE-----

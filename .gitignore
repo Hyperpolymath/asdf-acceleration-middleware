@@ -1,0 +1,42 @@
+# Rust
+/target/
+**/*.rs.bk
+*.pdb
+Cargo.lock  # Uncomment if building a library
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Cache
+.cache/
+*.cache
+
+# Build artifacts
+*.o
+*.so
+*.dylib
+*.dll
+*.exe
+
+# Documentation
+/target/doc/
+
+# Benchmarks
+/target/criterion/
+
+# Testing
+*.profraw
+*.profdata
+
+# Environment
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db

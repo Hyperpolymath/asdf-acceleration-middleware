@@ -1,0 +1,128 @@
+/* TEAM */
+
+Project: asdf-acceleration-middleware
+Site: https://github.com/Hyperpolymath/asdf-acceleration-middleware
+Standards: RSR Framework, TPCF
+Location: Distributed
+
+/* THANKS */
+
+Inspired by:
+- asdf-vm community
+- asdf-sync-rs project
+- Rhodium Standard Repository framework
+- Rust community
+
+Built with:
+- Rust programming language
+- Rayon parallel execution
+- Sled embedded database
+- Nickel configuration language
+- And many other open source projects (see Cargo.toml)
+
+/* SITE */
+
+Last update: 2024-11-22
+Language: English / Rust
+Doctype: UTF-8
+IDE: Multiple (VS Code, Vim, Emacs, etc.)
+Standards: RSR Silver (targeting Gold)
+Components: Cargo, Just, Nix
+Software: Rust 1.70+
+
+/* RECOGNITION */
+
+Contributors (chronological):
+- Initial development: 2024-11-22
+- (More contributors will be listed as the project grows)
+
+See CHANGELOG.md for detailed contribution history
+See git log for complete authorship chain (Palimpsest principle)
+
+/* VALUES */
+
+- Type Safety: Rust compile-time guarantees
+- Memory Safety: Ownership model, minimal unsafe
+- Offline-First: Works air-gapped
+- Performance: 2.5-11x speedup targets
+- Security: Defense in depth
+- Emotional Safety: Attribution, reversibility, psychological safety
+- Community: TPCF graduated trust model
+- Sustainability: Long-term maintainability
+
+/* LICENSE */
+
+Dual-licensed: MIT OR Palimpsest-0.8
+See LICENSE.txt for full text
+
+/* ATTRIBUTION CHAIN (Palimpsest Principle) */
+
+This project maintains visible attribution through:
+1. Git history (permanent, immutable)
+2. CHANGELOG.md (release contributions)
+3. This humans.txt file (recognition)
+4. Code comments (design decisions)
+5. Commit messages (rationale)
+
+We believe in honoring the chain of authorship.
+Every contribution, no matter how small, is valued.
+
+/* CONTACT */
+
+Issues: https://github.com/Hyperpolymath/asdf-acceleration-middleware/issues
+Discussions: https://github.com/Hyperpolymath/asdf-acceleration-middleware/discussions
+Security: See .well-known/security.txt
+Maintainers: See MAINTAINERS.md
+
+/* CONTRIBUTING */
+
+We welcome contributions!
+See CONTRIBUTING.md for guidelines
+See CODE_OF_CONDUCT.md for community standards
+Current perimeter: TPCF Perimeter 3 (Community Sandbox)
+
+/* FUN FACTS */
+
+- Lines of Rust (target): 5000+
+- Crates in workspace: 9
+- Performance multiplier: Up to 11x
+- Dependencies philosophy: Minimal but powerful
+- Test coverage goal: >80%
+- Documentation philosophy: Code is read more than written
+- Coffee consumed: ∞
+
+/* ASCII ART */
+
+    ___   ____  ____  ______
+   /   | / __ \/ __ \/ ____/
+  / /| |/ / / / / / / /_
+ / ___ / /_/ / /_/ / __/
+/_/  |_\____/_____/_/
+
+ Acceleration Middleware
+
+/* GRATITUDE */
+
+To everyone who:
+- Reports bugs
+- Suggests features
+- Writes documentation
+- Reviews code
+- Shares knowledge
+- Supports the community
+- Uses this software
+
+Thank you! 🚀
+
+/* PHILOSOPHY */
+
+"Software is a living document,
+written by many hands,
+read by many eyes,
+improved by many minds.
+
+We honor those who came before,
+support those who are here now,
+and pave the way for those who come after."
+
+- The Palimpsest Principle
