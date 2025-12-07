@@ -151,7 +151,10 @@ impl Executor {
         let results: Vec<_> = if thread_count == 1 {
             tasks
                 .into_iter()
-                .map(|task| (task, self.execute_with_retry(&task, &f)))
+                .map(|task| {
+                    let result = self.execute_with_retry(&task, &f);
+                    (task, result)
+                })
                 .collect()
         } else {
             tasks

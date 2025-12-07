@@ -70,7 +70,7 @@ pub fn execute(
     // Execute updates
     let results = executor.execute(plugin_list, |plugin| {
         pb.set_message(format!("Updating {}", plugin.name));
-        let result = plugin.update();
+        let result = plugin.update().map_err(asdf_parallel::Error::from);
         pb.inc(1);
         result
     });

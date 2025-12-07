@@ -4,7 +4,7 @@ pub mod collector;
 pub mod error;
 pub mod reporter;
 
-pub use collector::{Metrics, MetricsCollector};
+pub use collector::{Metrics, MetricsCollector, SystemInfo};
 pub use error::{Error, Result};
 pub use reporter::MetricsReporter;
 
