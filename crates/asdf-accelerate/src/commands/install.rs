@@ -57,7 +57,7 @@ pub fn execute(
     // Execute installations
     let results = executor.execute(runtime_list, |runtime| {
         pb.set_message(format!("Installing {}@{}", runtime.plugin, runtime.version));
-        let result = runtime.install();
+        let result = runtime.install().map_err(asdf_parallel::Error::from);
         pb.inc(1);
         result
     });

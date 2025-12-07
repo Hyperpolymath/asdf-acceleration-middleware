@@ -30,6 +30,7 @@ impl ConfigLoader {
             .build()?;
 
         self.builder
+            .clone()
             .try_deserialize()
             .map_err(|e| Error::Parse(e.to_string()))
     }
@@ -45,6 +46,7 @@ impl ConfigLoader {
             .build()?;
 
         self.builder
+            .clone()
             .try_deserialize()
             .map_err(|e| Error::Parse(e.to_string()))
     }
@@ -81,6 +83,7 @@ impl ConfigLoader {
         self.builder = builder.build()?;
 
         self.builder
+            .clone()
             .try_deserialize()
             .map_err(|e| Error::Parse(e.to_string()))
     }

@@ -48,7 +48,7 @@ fn load_config(path: Option<&std::path::PathBuf>) -> Result<AcceleratorConfig> {
 
     if let Some(p) = path {
         println!("{} Loading configuration from {}", "→".cyan(), p.display());
-        loader.load_file(p)
+        Ok(loader.load_file(p)?)
     } else {
         Ok(loader.load_with_defaults(None::<&std::path::Path>)?)
     }
